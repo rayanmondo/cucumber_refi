@@ -1,0 +1,20 @@
+2020-12-06 11:23:41.170 [main][46385] INFO  refiSteps_cucumber.Hooks - Launch Chrome Browser
+2020-12-06 11:24:16.510 [main][81725] INFO  refiSteps_cucumber.LoginAmazon - homepage
+2020-12-06 11:24:24.621 [main][89836] INFO  refiSteps_cucumber.LoginAmazon - select refiCalculator 
+2020-12-06 11:24:26.857 [main][92072] INFO  refiSteps_cucumber.LoginAmazon - all the data entered 
+2020-12-06 11:24:27.031 [main][92246] INFO  command_providers.ElementAssertions - validating that the expected locator By.xpath: //*[@id='analysisDiv']/table[3]//td[2][text()='$2,513.74']does exist
+2020-12-06 11:24:29.031 [main][94246] INFO  refiSteps_cucumber.LoginAmazon - price validate and homepage
+2020-12-06 11:24:31.971 [main][97186] INFO  refiSteps_cucumber.Hooks - Close Chrome Browser
+2020-12-06 11:24:45.177 [main][110392] INFO  refiSteps_cucumber.Hooks - Launch Chrome Browser
+2020-12-06 11:25:13.076 [main][138291] INFO  refiSteps_cucumber.LoginAmazon - homepage
+2020-12-06 11:25:20.433 [main][145648] INFO  refiSteps_cucumber.LoginAmazon - select refiCalculator 
+2020-12-06 11:25:22.633 [main][147848] INFO  refiSteps_cucumber.LoginAmazon - all the data entered 
+2020-12-06 11:25:22.798 [main][148013] INFO  command_providers.ElementAssertions - validating that the expected locator By.xpath: //*[@id='analysisDiv']/table[3]//td[2][text()='$1,485.58']does exist
+2020-12-06 11:25:24.264 [main][149479] INFO  refiSteps_cucumber.LoginAmazon - price validate and homepage
+2020-12-06 11:25:27.379 [main][152594] INFO  refiSteps_cucumber.Hooks - Close Chrome Browser
+2020-12-06 11:25:36.155 [main][161370] INFO  refiSteps_cucumber.Hooks - Launch Chrome Browser
+2020-12-06 11:25:42.996 [main][168211] INFO  refiSteps_cucumber.LoginAmazon - login page
+2020-12-06 11:25:50.594 [main][175809] INFO  refiSteps_cucumber.LoginAmazon - credentials entered
+2020-12-06 11:25:50.669 [main][175884] INFO  refiSteps_cucumber.LoginAmazon - CLICK ON LOGIN BUTTON
+2020-12-06 11:26:11.090 [main][196305] INFO  refiSteps_cucumber.LoginAmazon - User navigated to home page
+2020-12-06 11:26:12.726 [main][197941] INFO  refiSteps_cucumber.Hooks - Close Chrome Browser

@@ -1,0 +1,340 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-06T16:22:56.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 45017266000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "refiSteps_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify monthly payment with the diffrennt input values",
+        "description": "",
+        "id": "test-paramenter-refi-monthly;verify-monthly-payment-with-the-diffrennt-input-values;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1165633000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "refiSteps_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35089595000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "mortgage calculator home page",
+            "match": {
+              "location": "refiSteps_cucumber.DataParam.homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8100080000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "mousehover on Refinance and click RefiCalculator",
+            "match": {
+              "location": "refiSteps_cucumber.DataParam.mouseHoverToRefi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2199860000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter input values \"500000\", \"70000\", \"25\", \"5\"and click on calculate button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500000",
+                  "offset": 20
+                },
+                {
+                  "val": "70000",
+                  "offset": 30
+                },
+                {
+                  "val": "25",
+                  "offset": 39
+                },
+                {
+                  "val": "5",
+                  "offset": 45
+                }
+              ],
+              "location": "refiSteps_cucumber.DataParam.dataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3947027000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate the monthly payment \"$2,513.74\" and return to homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$2,513.74",
+                  "offset": 30
+                }
+              ],
+              "location": "refiSteps_cucumber.DataParam.validateMonthlyPay(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataDriven_test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-06T16:24:31.984Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13193350000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "refiSteps_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify monthly payment with the diffrennt input values",
+        "description": "",
+        "id": "test-paramenter-refi-monthly;verify-monthly-payment-with-the-diffrennt-input-values;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 455603000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "refiSteps_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27898286000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "mortgage calculator home page",
+            "match": {
+              "location": "refiSteps_cucumber.DataParam.homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7337689000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "mousehover on Refinance and click RefiCalculator",
+            "match": {
+              "location": "refiSteps_cucumber.DataParam.mouseHoverToRefi()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2199015000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter input values \"300000\", \"30000\", \"40\", \"6\"and click on calculate button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "300000",
+                  "offset": 20
+                },
+                {
+                  "val": "30000",
+                  "offset": 30
+                },
+                {
+                  "val": "40",
+                  "offset": 39
+                },
+                {
+                  "val": "6",
+                  "offset": 45
+                }
+              ],
+              "location": "refiSteps_cucumber.DataParam.dataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4271924000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate the monthly payment \"$1,485.58\" and return to homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$1,485.58",
+                  "offset": 30
+                }
+              ],
+              "location": "refiSteps_cucumber.DataParam.validateMonthlyPay(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataDriven_test"
+          }
+        ]
+      }
+    ],
+    "name": "test paramenter refi monthly",
+    "description": "",
+    "id": "test-paramenter-refi-monthly",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/dataRefi.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-06T16:25:27.388Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8763257000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "refiSteps_cucumber.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "check login is successful with multiple credentials",
+        "description": "",
+        "id": "test-login-functionalies;check-login-is-successful-with-multiple-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 136300000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "refiSteps_cucumber.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6839971000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a user is on the login page",
+            "match": {
+              "location": "refiSteps_cucumber.LoginAmazon.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7527767000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enter email \"rayanmondo@gmail.com\" and click on continue button and enter password \"Taskani12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rayanmondo@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "Taskani12",
+                  "offset": 89
+                }
+              ],
+              "location": "refiSteps_cucumber.LoginAmazon.emailAndContinue(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74261000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click on Sign-in button",
+            "match": {
+              "location": "refiSteps_cucumber.LoginAmazon.Singin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21792907000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "refiSteps_cucumber.LoginAmazon.homePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataDriven_test"
+          }
+        ]
+      }
+    ],
+    "name": "Test login functionalies",
+    "description": "",
+    "id": "test-login-functionalies",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
